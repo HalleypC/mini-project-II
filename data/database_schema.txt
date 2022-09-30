@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS "fsq_barr_POI" (
+"POI_name" TEXT,
+  "distance" INTEGER,
+  "rating" REAL,
+  "fsq_id" TEXT
+);
+CREATE TABLE IF NOT EXISTS "fsq_barr_categories" (
+"fsq_id" TEXT,
+  "type" TEXT,
+  "id" INTEGER
+);
